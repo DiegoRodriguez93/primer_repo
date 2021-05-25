@@ -1,0 +1,16 @@
+# mi archivo de log
+mi.log
+
+# nueva carpeta
+nueva_carpeta/
+
+# otra carpeta crear una regla
+otra_carpeta/
+!otra_carpeta/archivo_no_ignorado
+
+# ignorar todos los archivos con cierta extension
+*.log
+
+# ignorar archivos de config
+.DS_Store
+
